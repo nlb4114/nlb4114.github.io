@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+    color: navy;
+}
+
+.subheading {
+    text-align: center;
+    color: navy;
+}
+
+.d-guides {
+    
+    background-position: center;
+    padding: 37px 25px;
+    text-align: center;
+    font-weight: normal;
+    display: block;
+    color: white;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
