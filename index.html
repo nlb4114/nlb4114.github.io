@@ -10,45 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <title>The Backpacker Backes Travel Blog</title>
-    
-    <style>
 
-    .jumbotron {
-  /* Background */
-  background-attachment: fixed;
-  background-image: url("home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+    <link rel="stylesheet" type="text/css" href="index.css"></link>
 
-  /* Fonts */
-  color: white;
-  text-shadow: 1px 1px 1px black;
-    }
-
-    .footer {
-      position: bottom;
-      bottom: 0;
-      width: 100%;
-      height: 60px;
-      line-height: 60px;
-      background-color: #f5f5f5;
-    }
-    .col-md-3 {
-      text-align: center;
-      
-    }
-    .col-md-3 img {
-      align-content: center;
-      width: 250px;
-      height: 250px;
-    }
-
-  </style>
   </head>
   <body>
      <!-- Static navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <span class="navbar-brand mb-0 h1">Backpacker Backes
       </span>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -81,7 +49,7 @@
       </div>
 
       <!--Main Page-->
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col text-center">
             <h2>Recent Blogs</h2>
@@ -94,7 +62,7 @@
                 <h3>Rome</h3>
             </a>
             <!--placeholder image 850x350   https://placehold.it/850x350-->
-              <img class="thumbnail" src="https://placehold.it/850x350">
+              <img class="thumbnail img-fluid" src="rome2.jpg">
               <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo </p>
               </div>
 
@@ -102,16 +70,16 @@
                 <a href="barcelona.html">
                   <h3>Barcelona</h3>
               </a>
-              <img class="thumbnail" src="barcelona2.jpg">
+              <img class="thumbnail img-fluid" src="barcelona2.jpg">
               <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo </p>
               </div>
           </div>
 
           <!--Sidebar-->
-          <div class="col-md-3">
+          <div class="col-md-3 sidebar">
             <h1>Welcome!</h1>
             <br>
-            <img src="welcome.jpg" class="rounded-circle" alt="bali">
+            <img src="welcome.jpg" class="rounded-circle img-fluid" alt="welcome">
               <br>
               <br>
               <p>This site is a free resource for other aspiring adventurers to discover the world!</p>
@@ -135,15 +103,11 @@
     </body>
 </html>
 
-<!--HOME: center the side bar pictures and text. gutter?
-          responsive images in left column
+<!--HOME: center jumbotron text
           add muted text next to cities with the date
-          fix positioning of photo in jumbotron
-    NAVBAR: lock to top of screen
-    ASIA/EUROPE: Adjust size of all three columns pics to look like example
+          change blog post link color and underline
+    NAVBAR: shift container down
+    ASIA/EUROPE: center the text in the pciture
     FOOTER: Appear at bootom of page and center text
-    ABOUT ME: gutter on side of photo
     CONTACT: center the buttons
-
-    Override 3 bootstrap rules
 -->
