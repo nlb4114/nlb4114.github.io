@@ -38,7 +38,7 @@
         height: 250px;
       }
 .blog-post img {
-    height: 700px;
+    height: auto;
 }
 
 .blog-post {
