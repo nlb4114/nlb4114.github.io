@@ -58,3 +58,7 @@ a:link {
 a:hover {
     color: blue;
   }
+
+  .sidebar img{
+    height: auto;
+  }
