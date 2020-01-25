@@ -53,14 +53,17 @@
 
 .bali {
     background-image: url(bali1.jpg);
+    width: auto;
 }
 
 .sri-lanka {
     background-image: url(srilanka1.jpg);
+    width: auto;
 }
 
 .thailand {
     background-image: url(thailand1.jpg);
+    width: auto;
 }
 
 .barcelona {
